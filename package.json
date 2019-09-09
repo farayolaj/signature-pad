@@ -32,6 +32,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+<<<<<<< HEAD
   },
+=======
+  }, 
+>>>>>>> 7174e74c832325a4c7d176c8bfa00df2659f2085
   "homepage": "https://farayolaj.github.io/signature-pad"
 }
