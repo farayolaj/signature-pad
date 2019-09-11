@@ -1,7 +1,7 @@
 import React, { useRef, useState } from 'react';
 import Popup from 'reactjs-popup';
 import SignaturePad from 'react-signature-canvas';
-import { SwatchesPicker } from 'react-color';
+import { TwitterPicker } from 'react-color';
 import './App.css';
 import './sigCanvas.css';
 
@@ -29,7 +29,7 @@ function App() {
             <button onClick={clear}>Clear</button>
             <button onClick={save}>Save</button>
             <Popup modal trigger={<button>Colour</button>}>
-              <SwatchesPicker color={penColor} onChangeComplete={onColorChange} />
+              <TwitterPicker color={penColor} onChangeComplete={onColorChange} />
             </Popup>
           </>
         )}
